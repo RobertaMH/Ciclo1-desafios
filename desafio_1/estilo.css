@@ -1,0 +1,136 @@
+*{   
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor:#212121;
+}
+header, main, footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* começo header */
+header {
+    height: 40px;
+}
+header#top {
+    background-color: var(--cor);
+    
+}
+
+.flex {
+    display: flex;
+}
+
+header#top h1, header#top nav {
+    width: 50%;
+    justify-content: center;
+}
+
+header#top h1 {
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: helvetica;
+    color: white;
+}
+
+ .cor{
+     background-color: #f9a825;
+    border-radius: 100px;
+    padding: 5px;
+ }
+ nav ul li {
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a {
+
+    font-family: helvetica;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    
+}
+a.go:hover {
+    background-color: #f93325;
+   
+}
+
+/* começo main */
+
+main {
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    padding: 5%;
+    width: 40%;
+    border-right: 2px dotted;
+     /* background-color: #f93325;    */
+    height: 200px;
+     
+}
+label#a {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#div2 {
+    flex-direction: column; 
+    /* background-color: blue; */
+    width: 40%;
+    height: 100px;
+    padding: 1%;
+    
+    
+}
+.tamanho {
+    width: 40%;
+    height: 30px;
+}
+
+
+/* começo footer */
+footer {
+    background-color: var(--cor);
+    height: 0 auto;
+    width: 100%;
+    margin-top: auto;
+    bottom: 0;
+    position: absolute;
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+footer#rodape {
+    justify-content: center;
+
+    
+}
+
+div#estilo {
+    font-family:Helvetica;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    
+   
+}
+
+/* eu tentei de todo jeito alinhar o main no centro mas nao consegui :(  */
